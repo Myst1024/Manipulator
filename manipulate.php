@@ -20,13 +20,6 @@ if (array_key_exists('getOperations',$_REQUEST)) {
 			break;
 	}
 
-
-/*	if ($_REQUEST['operation'] === 'Alphabetical') {
-		sort($inputArray);
-	} else {
-
-	}*/
-
 	$outputResponse = json_encode($outputArray);
 } else {
 	$outputResponse = 'wtf did you do';
@@ -38,10 +31,4 @@ echo $outputResponse;
 function aInB($input1,$input2) {
 	return(array_values(array_intersect($input1,$input2)));
 }
-
-
-
-
-
-
 ?>
