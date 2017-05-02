@@ -1,0 +1,30 @@
+body{
+	color:grey;
+	background-color:black;
+}
+#inputData{
+	width:500px;
+	height:500px;
+	background-color:darkred;
+}
+
+#inputData2{
+	width:500px;
+	height:500px;
+	background-color:darkviolet;
+}
+
+#outputData{
+	width:500px;
+	height:500px;
+	background-color:darkgreen;
+}
+
+.button{
+	color:white;
+	background-color:darkblue;
+	padding: 20px 5px;
+	border-radius:15px;
+	width:200px;
+	text-align:center;
+}
